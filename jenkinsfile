@@ -1,0 +1,16 @@
+pipeline {
+    agent none 
+    stages {
+        stage('Build') {
+            steps {
+                echo 'buiding my first appliaction'
+            }
+        }
+        stage('Example Test') {
+            steps {
+                echo 'testing my first application'
+                
+            }
+        }
+    }
+}
